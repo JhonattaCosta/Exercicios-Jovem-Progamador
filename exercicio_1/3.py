@@ -1,4 +1,4 @@
-num1 = input("Digite um número: ")
-num2 = input("Digite outro número: ")
+nome = input("Digite seu nome: ")
+cidade = input("Digite sua idade: ")
 
-print("A soma dos números é: " + str(int(num1) + int(num2)))
+print(nome," mora em ", cidade)

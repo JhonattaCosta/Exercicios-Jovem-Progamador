@@ -1,6 +1,5 @@
-a = int(input("Digite um numero: "))
-b = int(input("Digite outro numero: "))
+raio = float(input("Digite o raio do circulo: "))
+pi = 3.14
+area = pi * (raio**2)
 
-print("Divisão inteira é: ", a // b)
-print("Resto da divisão é: ", a % b)
-print("Exponenciação é: ", a ** b)
+print("A area do circulo é: ", area)

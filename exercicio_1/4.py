@@ -1,3 +1,3 @@
-num1 = input("Digite um número: ")
-num2 = input("Digite outro número: ")
-print("A subtração dos números é: " + str(int(num1) - int(num2)))
+num = input("Digite um número: ")
+
+print("O dobro do número é: " + str(int(num) * 2))
